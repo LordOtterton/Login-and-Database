@@ -155,7 +155,7 @@ email_lable = Label(frame_register, text= "Email", background= '#a6a6a6').grid(c
 register_email = Entry(frame_register)
 register_email.grid(column= 1, row = 6)
 
-submit_button = Button(frame_register, text="Submit", command= insert_record).grid(column= 1, row= 7)
+submit_button = Button(frame_register, text="Register", command= insert_record).grid(column= 1, row= 7)
 
 
 
