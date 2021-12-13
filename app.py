@@ -127,7 +127,7 @@ username_verify = Entry(frame_login)
 username_verify.grid(column= 1, row = 0)
 
 password_label = Label(frame_login, text="Password", background= '#a6a6a6').grid(column= 0, row = 1, sticky = (W))
-password_verify = Entry(frame_login)
+password_verify = Entry(frame_login, show= '*')
 password_verify.grid(column= 1, row = 1)
 
 submit_button = Button(frame_login, text="Login", command= login_response).grid(column= 1, row= 2)
